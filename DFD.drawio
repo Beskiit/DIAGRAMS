@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T13:44:17.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="xHOEOFRDk8459d02T8uV" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T13:45:01.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="JTbKyFMAn1mfZPACMz1W" version="24.2.5" type="github">
   <diagram name="Page-1" id="6rtzGgmO1tUjo8vaw5kd">
     <mxGraphModel dx="1301" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6cH2EJembwBuiCUfPoCa-19" value="Room availability" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6cH2EJembwBuiCUfPoCa-19" value="Available Room" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="475" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6cH2EJembwBuiCUfPoCa-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.09;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="6cH2EJembwBuiCUfPoCa-1" target="6cH2EJembwBuiCUfPoCa-5" edge="1">
@@ -103,7 +103,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6cH2EJembwBuiCUfPoCa-21" value="Room key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6cH2EJembwBuiCUfPoCa-21" value="Room ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6cH2EJembwBuiCUfPoCa-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
