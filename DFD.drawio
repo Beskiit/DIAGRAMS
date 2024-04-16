@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T13:31:27.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="5ralDyt8b9zfWLlzxAFJ" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T13:32:15.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="tH9hzzdu_2B4cqoLzAn0" version="24.2.5" type="github">
   <diagram name="Page-1" id="6rtzGgmO1tUjo8vaw5kd">
     <mxGraphModel dx="1106" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -196,6 +196,9 @@
         <mxCell id="6cH2EJembwBuiCUfPoCa-48" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="1433" y="770" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6cH2EJembwBuiCUfPoCa-49" target="h7MDMUsmBhHF7FosyJjk-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6cH2EJembwBuiCUfPoCa-49" value="Transaction Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1470" y="770" width="80" height="30" as="geometry" />
         </mxCell>
@@ -343,6 +346,9 @@
         </mxCell>
         <mxCell id="h7MDMUsmBhHF7FosyJjk-30" value="Received&lt;div&gt;Tenant Information&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1420" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-32" value="Received payment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="400" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
