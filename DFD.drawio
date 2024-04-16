@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T13:23:11.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Mi8S0xgXFl0bnUSErqdp" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T13:27:56.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="tJCTvKDyrdNpRoPgdi_s" version="24.2.5" type="github">
   <diagram name="Page-1" id="6rtzGgmO1tUjo8vaw5kd">
-    <mxGraphModel dx="922" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,6 +295,36 @@
         </mxCell>
         <mxCell id="h7MDMUsmBhHF7FosyJjk-20" value="Room&lt;div&gt;Availability&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-22" value="Clerk" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.023;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6cH2EJembwBuiCUfPoCa-1" target="h7MDMUsmBhHF7FosyJjk-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="658" y="366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-24" value="Transaction report" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6cH2EJembwBuiCUfPoCa-1" target="h7MDMUsmBhHF7FosyJjk-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="393" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h7MDMUsmBhHF7FosyJjk-26" value="Tenant Information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
