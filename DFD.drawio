@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T13:01:24.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="dcMbqXJSLlHzl3kYxlnG" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T13:01:35.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="mBTucGMUAD2grDff3Sam" version="24.4.4" type="github">
   <diagram name="Page-1" id="6rtzGgmO1tUjo8vaw5kd">
     <mxGraphModel dx="1106" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -508,6 +508,9 @@
         </mxCell>
         <mxCell id="h7MDMUsmBhHF7FosyJjk-71" value="&amp;nbsp;Transaction Details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2150" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4e2gUxDdzSECsZZgOMCz-1" value="Room" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
