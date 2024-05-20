@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T01:04:05.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SQsNhqj6jkqEXWjxqGKC" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T01:05:49.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lch9_L84T8VLQaWFmZAK" version="24.4.4" type="github">
   <diagram name="Page-1" id="6rtzGgmO1tUjo8vaw5kd">
-    <mxGraphModel dx="1100" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,6 +707,18 @@
         </mxCell>
         <mxCell id="wVRTZd8b3uKqGKiTQsdw-25" value="Received Contract" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wVRTZd8b3uKqGKiTQsdw-26" value="Request Contract Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wVRTZd8b3uKqGKiTQsdw-27" value="&amp;nbsp;Contract Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wVRTZd8b3uKqGKiTQsdw-28" value="&amp;nbsp;Contract Details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wVRTZd8b3uKqGKiTQsdw-29" value="&amp;nbsp;Contract Details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1985" y="940" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
