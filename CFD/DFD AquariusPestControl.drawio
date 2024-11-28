@@ -191,6 +191,18 @@
         <mxCell id="9PFNCX79VaehlB443Bku-16" value="Technician" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="580" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9PFNCX79VaehlB443Bku-21" value="Received Schedule" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PFNCX79VaehlB443Bku-22" value="Received Schedule" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PFNCX79VaehlB443Bku-23" value="Received Appointment Information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9PFNCX79VaehlB443Bku-24" value="Received Appointment Information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
