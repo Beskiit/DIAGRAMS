@@ -1,89 +1,89 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="8fFJV0Y6rYQ6AxZCMa8E">
-    <mxGraphModel dx="2553" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4088" dy="2312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EE1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="End User (EE1)" vertex="1">
-          <mxGeometry height="50" width="140" x="20" y="20" as="geometry" />
+          <mxGeometry height="50" width="140" x="160" y="420" as="geometry" />
         </mxCell>
         <mxCell id="EE2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="SMTP Server (EE2)" vertex="1">
-          <mxGeometry height="50" width="140" x="700" y="20" as="geometry" />
+          <mxGeometry height="50" width="140" x="840" y="420" as="geometry" />
         </mxCell>
         <mxCell id="EE3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" value="Background Scheduler&#xa;Hangfire (EE3)" vertex="1">
-          <mxGeometry height="55" width="150" x="20" y="900" as="geometry" />
+          <mxGeometry height="55" width="150" x="160" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="EE4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" value="Ops / DevOps (EE4)" vertex="1">
-          <mxGeometry height="55" width="150" x="700" y="900" as="geometry" />
+          <mxGeometry height="55" width="150" x="840" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="P1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P1&#xa;Authenticate User" vertex="1">
-          <mxGeometry height="70" width="150" x="100" y="140" as="geometry" />
+          <mxGeometry height="70" width="150" x="240" y="540" as="geometry" />
         </mxCell>
         <mxCell id="P2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P2&#xa;Manage Accounts" vertex="1">
-          <mxGeometry height="70" width="150" x="350" y="140" as="geometry" />
+          <mxGeometry height="70" width="150" x="490" y="540" as="geometry" />
         </mxCell>
         <mxCell id="P3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P3&#xa;Manage Projects" vertex="1">
-          <mxGeometry height="70" width="150" x="600" y="140" as="geometry" />
+          <mxGeometry height="70" width="150" x="740" y="540" as="geometry" />
         </mxCell>
         <mxCell id="P4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P4&#xa;Manage Tasks/Subtasks" vertex="1">
-          <mxGeometry height="70" width="160" x="100" y="360" as="geometry" />
+          <mxGeometry height="70" width="160" x="240" y="760" as="geometry" />
         </mxCell>
         <mxCell id="P5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P5&#xa;Manage Comments" vertex="1">
-          <mxGeometry height="70" width="150" x="350" y="360" as="geometry" />
+          <mxGeometry height="70" width="150" x="490" y="760" as="geometry" />
         </mxCell>
         <mxCell id="P6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P6&#xa;Manage Notifications" vertex="1">
-          <mxGeometry height="70" width="155" x="600" y="360" as="geometry" />
+          <mxGeometry height="70" width="155" x="740" y="760" as="geometry" />
         </mxCell>
         <mxCell id="P7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P7&#xa;Dashboard / Calendar" vertex="1">
-          <mxGeometry height="70" width="150" x="100" y="570" as="geometry" />
+          <mxGeometry height="70" width="150" x="240" y="970" as="geometry" />
         </mxCell>
         <mxCell id="P8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P8&#xa;Manage Sticky Notes" vertex="1">
-          <mxGeometry height="70" width="150" x="350" y="570" as="geometry" />
+          <mxGeometry height="70" width="150" x="490" y="970" as="geometry" />
         </mxCell>
         <mxCell id="P9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P9&#xa;Audit Log Query/Export" vertex="1">
-          <mxGeometry height="70" width="155" x="600" y="570" as="geometry" />
+          <mxGeometry height="70" width="155" x="740" y="970" as="geometry" />
         </mxCell>
         <mxCell id="P10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" value="P10&#xa;Due Task Warning Job" vertex="1">
-          <mxGeometry height="70" width="160" x="340" y="790" as="geometry" />
+          <mxGeometry height="70" width="160" x="480" y="1190" as="geometry" />
         </mxCell>
         <mxCell id="DS1" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS1  Accounts" vertex="1">
-          <mxGeometry height="40" width="160" x="270" y="240" as="geometry" />
+          <mxGeometry height="40" width="160" x="410" y="640" as="geometry" />
         </mxCell>
         <mxCell id="DS2" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS2  Projects" vertex="1">
-          <mxGeometry height="40" width="150" x="520" y="240" as="geometry" />
+          <mxGeometry height="40" width="150" x="660" y="640" as="geometry" />
         </mxCell>
         <mxCell id="DS3" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS3  Project Members" vertex="1">
-          <mxGeometry height="40" width="170" x="680" y="240" as="geometry" />
+          <mxGeometry height="40" width="170" x="820" y="640" as="geometry" />
         </mxCell>
         <mxCell id="DS4" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS4  Tasks" vertex="1">
-          <mxGeometry height="40" width="130" x="30" y="470" as="geometry" />
+          <mxGeometry height="40" width="130" x="170" y="870" as="geometry" />
         </mxCell>
         <mxCell id="DS5" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS5  Assignments" vertex="1">
-          <mxGeometry height="40" width="150" x="200" y="470" as="geometry" />
+          <mxGeometry height="40" width="150" x="340" y="870" as="geometry" />
         </mxCell>
         <mxCell id="DS6" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS6  Comments" vertex="1">
-          <mxGeometry height="40" width="150" x="360" y="470" as="geometry" />
+          <mxGeometry height="40" width="150" x="500" y="870" as="geometry" />
         </mxCell>
         <mxCell id="DS7" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS7  Notifications" vertex="1">
-          <mxGeometry height="40" width="155" x="530" y="470" as="geometry" />
+          <mxGeometry height="40" width="155" x="670" y="870" as="geometry" />
         </mxCell>
         <mxCell id="DS8" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS8  Audit Logs" vertex="1">
-          <mxGeometry height="40" width="150" x="270" y="680" as="geometry" />
+          <mxGeometry height="40" width="150" x="410" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="DS9" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS9  OTP Codes" vertex="1">
-          <mxGeometry height="40" width="145" x="30" y="680" as="geometry" />
+          <mxGeometry height="40" width="145" x="170" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="DS10" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS10  Sticky Notes" vertex="1">
-          <mxGeometry height="40" width="150" x="440" y="680" as="geometry" />
+          <mxGeometry height="40" width="150" x="580" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="DS12" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS12  Session / Token (Laravel)" vertex="1">
-          <mxGeometry height="40" width="200" x="30" y="260" as="geometry" />
+          <mxGeometry height="40" width="200" x="170" y="660" as="geometry" />
         </mxCell>
         <mxCell id="DS13" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS13  File Storage" vertex="1">
-          <mxGeometry height="40" width="145" x="600" y="680" as="geometry" />
+          <mxGeometry height="40" width="145" x="740" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="DS11" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS11  Status/Priority Catalogs" vertex="1">
-          <mxGeometry height="40" width="200" x="530" y="790" as="geometry" />
+          <mxGeometry height="40" width="200" x="670" y="1190" as="geometry" />
         </mxCell>
         <mxCell id="f1" edge="1" parent="1" source="EE1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="P1" value="credentials">
           <mxGeometry relative="1" as="geometry" />
@@ -190,15 +190,9 @@
           <mxGeometry relative="1" x="0.0588" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="630" y="395" />
+              <mxPoint x="770" y="795" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="hccCMVL00kWEiQ6xtSGa-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="f" vertex="1">
-          <mxGeometry height="80" width="80" x="1090" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="hccCMVL00kWEiQ6xtSGa-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="-650" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
