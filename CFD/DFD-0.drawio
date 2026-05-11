@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8fFJV0Y6rYQ6AxZCMa8E">
+    <mxGraphModel dx="2044" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.lean_mapping.electronic_info_flow_edge;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;fontSize=11;fontColor=#666666;align=left;verticalAlign=top;" value="System Boundary" vertex="1">
+          <mxGeometry height="280" width="440" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;arcSize=50;" value="Task Management System&#xa;(P0)" vertex="1">
+          <mxGeometry height="100" width="240" x="280" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EE1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="End User&#xa;(Admin / Regular User)&#xa;EE1" vertex="1">
+          <mxGeometry height="60" width="180" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EE2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="SMTP Mail Server&#xa;EE2" vertex="1">
+          <mxGeometry height="60" width="160" x="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EE3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="Background Scheduler&#xa;(Hangfire)&#xa;EE3" vertex="1">
+          <mxGeometry height="60" width="180" x="20" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="EE4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Operations / DevOps&#xa;(Swagger / Hangfire UI)&#xa;EE4" vertex="1">
+          <mxGeometry height="60" width="180" x="600" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="F01" edge="1" parent="1" source="EE1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="P0" value="F01: Credentials, inputs, uploads">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F02" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=0;exitY=0.7;entryX=1;entryY=0.5;" target="EE1" value="F02: Session data, UI, exports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F03" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="EE2" value="F03: OTP email, notifications">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F04" edge="1" parent="1" source="EE3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.8;" target="P0" value="F04: Scheduled job trigger (cron)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F05" edge="1" parent="1" source="EE4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" target="P0" value="F05: Admin API commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F06" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.7;entryX=0;entryY=0.3;" target="EE4" value="F06: API docs, job status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
