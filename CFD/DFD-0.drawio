@@ -1,44 +1,204 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="8fFJV0Y6rYQ6AxZCMa8E">
-    <mxGraphModel dx="2044" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2553" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="boundary" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.lean_mapping.electronic_info_flow_edge;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#666666;fontSize=11;fontColor=#666666;align=left;verticalAlign=top;" value="System Boundary" vertex="1">
-          <mxGeometry height="280" width="440" x="180" y="140" as="geometry" />
+        <mxCell id="EE1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="End User (EE1)" vertex="1">
+          <mxGeometry height="50" width="140" x="20" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="P0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;arcSize=50;" value="Task Management System&#xa;(P0)" vertex="1">
-          <mxGeometry height="100" width="240" x="280" y="210" as="geometry" />
+        <mxCell id="EE2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="SMTP Server (EE2)" vertex="1">
+          <mxGeometry height="50" width="140" x="700" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="EE1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="End User&#xa;(Admin / Regular User)&#xa;EE1" vertex="1">
-          <mxGeometry height="60" width="180" x="20" y="30" as="geometry" />
+        <mxCell id="EE3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" value="Background Scheduler&#xa;Hangfire (EE3)" vertex="1">
+          <mxGeometry height="55" width="150" x="20" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="EE2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="SMTP Mail Server&#xa;EE2" vertex="1">
-          <mxGeometry height="60" width="160" x="600" y="30" as="geometry" />
+        <mxCell id="EE4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" value="Ops / DevOps (EE4)" vertex="1">
+          <mxGeometry height="55" width="150" x="700" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="EE3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="Background Scheduler&#xa;(Hangfire)&#xa;EE3" vertex="1">
-          <mxGeometry height="60" width="180" x="20" y="490" as="geometry" />
+        <mxCell id="P1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P1&#xa;Authenticate User" vertex="1">
+          <mxGeometry height="70" width="150" x="100" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="EE4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Operations / DevOps&#xa;(Swagger / Hangfire UI)&#xa;EE4" vertex="1">
-          <mxGeometry height="60" width="180" x="600" y="490" as="geometry" />
+        <mxCell id="P2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P2&#xa;Manage Accounts" vertex="1">
+          <mxGeometry height="70" width="150" x="350" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="F01" edge="1" parent="1" source="EE1" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="P0" value="F01: Credentials, inputs, uploads">
+        <mxCell id="P3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" value="P3&#xa;Manage Projects" vertex="1">
+          <mxGeometry height="70" width="150" x="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P4&#xa;Manage Tasks/Subtasks" vertex="1">
+          <mxGeometry height="70" width="160" x="100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="P5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P5&#xa;Manage Comments" vertex="1">
+          <mxGeometry height="70" width="150" x="350" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="P6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" value="P6&#xa;Manage Notifications" vertex="1">
+          <mxGeometry height="70" width="155" x="600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="P7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P7&#xa;Dashboard / Calendar" vertex="1">
+          <mxGeometry height="70" width="150" x="100" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="P8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P8&#xa;Manage Sticky Notes" vertex="1">
+          <mxGeometry height="70" width="150" x="350" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="P9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" value="P9&#xa;Audit Log Query/Export" vertex="1">
+          <mxGeometry height="70" width="155" x="600" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="P10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" value="P10&#xa;Due Task Warning Job" vertex="1">
+          <mxGeometry height="70" width="160" x="340" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="DS1" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS1  Accounts" vertex="1">
+          <mxGeometry height="40" width="160" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DS2" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS2  Projects" vertex="1">
+          <mxGeometry height="40" width="150" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DS3" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS3  Project Members" vertex="1">
+          <mxGeometry height="40" width="170" x="680" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DS4" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS4  Tasks" vertex="1">
+          <mxGeometry height="40" width="130" x="30" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS5  Assignments" vertex="1">
+          <mxGeometry height="40" width="150" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DS6" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS6  Comments" vertex="1">
+          <mxGeometry height="40" width="150" x="360" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DS7" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS7  Notifications" vertex="1">
+          <mxGeometry height="40" width="155" x="530" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DS8" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS8  Audit Logs" vertex="1">
+          <mxGeometry height="40" width="150" x="270" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DS9" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS9  OTP Codes" vertex="1">
+          <mxGeometry height="40" width="145" x="30" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DS10" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS10  Sticky Notes" vertex="1">
+          <mxGeometry height="40" width="150" x="440" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DS12" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS12  Session / Token (Laravel)" vertex="1">
+          <mxGeometry height="40" width="200" x="30" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="DS13" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS13  File Storage" vertex="1">
+          <mxGeometry height="40" width="145" x="600" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DS11" parent="1" style="shape=mxgraph.dfd.dataStore;whiteSpace=wrap;html=1;fontSize=11;" value="DS11  Status/Priority Catalogs" vertex="1">
+          <mxGeometry height="40" width="200" x="530" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="EE1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="P1" value="credentials">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F02" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=0;exitY=0.7;entryX=1;entryY=0.5;" target="EE1" value="F02: Session data, UI, exports">
+        <mxCell id="f2" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="EE1" value="session cookie">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F03" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="EE2" value="F03: OTP email, notifications">
+        <mxCell id="f3" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="EE2" value="OTP email">
+          <mxGeometry relative="1" x="-0.008" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS12" value="write token">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F04" edge="1" parent="1" source="EE3" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.8;" target="P0" value="F04: Scheduled job trigger (cron)">
+        <mxCell id="f5" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS9" value="store OTP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F05" edge="1" parent="1" source="EE4" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" target="P0" value="F05: Admin API commands">
+        <mxCell id="f6" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;dashed=1;" target="DS8" value="audit write">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F06" edge="1" parent="1" source="P0" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;exitX=1;exitY=0.7;entryX=0;entryY=0.3;" target="EE4" value="F06: API docs, job status">
+        <mxCell id="f7" edge="1" parent="1" source="P2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS1" value="user CRUD">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="P2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS13" value="profile image">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" source="P2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;dashed=1;" target="DS8" value="audit write">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" source="P3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS2" value="project CRUD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="P3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS3" value="membership">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="P3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;dashed=1;strokeColor=#0066CC;" target="P6" value="notify trigger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="1" source="P4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS4" value="task CRUD">
+          <mxGeometry relative="1" x="-0.2" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f14" edge="1" parent="1" source="P4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS5" value="assignments">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f15" edge="1" parent="1" source="P4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;dashed=1;strokeColor=#0066CC;" target="P6" value="assign/due alert">
+          <mxGeometry relative="1" x="0.6471" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f16" edge="1" parent="1" source="P5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS6" value="comment CRUD">
+          <mxGeometry relative="1" x="0.2" y="25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f17" edge="1" parent="1" source="P6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS7" value="notif state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f18" edge="1" parent="1" source="P6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="EE2" value="email dispatch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f19" edge="1" parent="1" source="P7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS2" value="read projects">
+          <mxGeometry relative="1" x="-0.1045" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f20" edge="1" parent="1" source="P7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS4" value="read tasks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f21" edge="1" parent="1" source="P7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS7" value="read notifs">
+          <mxGeometry relative="1" x="0.779" y="28" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f22" edge="1" parent="1" source="P8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS10" value="note CRUD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f23" edge="1" parent="1" source="P9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS8" value="read logs">
+          <mxGeometry relative="1" x="-0.7576" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f24" edge="1" parent="1" source="P9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="EE1" value="Excel/PDF export">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f25" edge="1" parent="1" source="EE4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="P9" value="admin query">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f26" edge="1" parent="1" source="EE3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="P10" value="cron tick">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f27" edge="1" parent="1" source="P10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS4" value="read overdue tasks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f28" edge="1" parent="1" source="P10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS7" value="write warning notif">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f29" edge="1" parent="1" source="P10" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="EE2" value="warning email">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f30" edge="1" parent="1" source="P4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;" target="DS11" value="validate status">
+          <mxGeometry relative="1" x="0.0588" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="630" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hccCMVL00kWEiQ6xtSGa-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="f" vertex="1">
+          <mxGeometry height="80" width="80" x="1090" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hccCMVL00kWEiQ6xtSGa-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="-650" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
